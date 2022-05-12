@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<style type="text/css">
+			#spider {
+			  position: relative;
+			  width: 400px;
+			}
+
+			.image {
+              padding-left:300px;
+			  display: block;
+			  width: 400px;
+			  height: 400px;
+			  transition:1s;
+              margin-top: 10%;
+              margin-bottom: 25%;
+			}
+
+			.overlay {
+			  position:absolute;
+			  top: 0;
+			  bottom: 0;
+			  left: 0;
+			  right: 0;
+			  height: 100%;
+			  opacity:0;
+			  transition: 1s;
+			  background-color:rgba(0,0,0,0.7);
+			}
+
+			
+			#spiderman:hover
+            {
+			  
+			  transform:rotate(360deg);
+
+			  
+			}
+            #rotate:hover
+            {
+                box-shadow:0px 0px 30px rgb(10, 10, 26);
+            }
+			
+		</style>
+	</head>
+	<body>
+		<h1>Image Overlay Effect</h1>
+		<div id="spider">
+			<img src="spiderman2.jpg" alt="Demo Image" class="image">
+            <div class="overlay"></div>
+				
+		    </div>
+            <div id="rotate">
+               
+            </div>
+		</div>
+	</body>
+</html>
